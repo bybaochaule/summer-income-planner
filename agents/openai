@@ -1,0 +1,25 @@
+interface:
+  display_name: "Summer Income Planner"
+  short_description: "Create practical 6-week summer income plans with offer ideas, weekly actions, trackers, and quality checks."
+  default_prompt: "Create a practical 6-week summer income plan based on my skills, available time, constraints, and goal."
+
+policy:
+  allow_implicit_invocation: true
+
+capabilities:
+  supports_artifacts: false
+  requires_network: false
+  optional_network_for_current_local_info: true
+
+dependencies:
+  tools: []
+  files:
+    - SKILL.md
+    - README.md
+    - references/style-guide.md
+    - assets/intake-form.md
+    - assets/plan-template.md
+    - assets/weekly-tracker.csv
+    - assets/offer-scorecard.csv
+    - assets/quality-control-checklist.md
+    - scripts/example_helper.py
