@@ -1,0 +1,9 @@
+Validation status: PASSED
+Skill name: summer-income-planner
+Skill path: /mnt/data/.agents/skills/summer-income-planner
+Required files present: yes
+Required SKILL.md sections present: yes
+Front matter present: yes
+Description trigger-friendly: yes
+Safety guardrails present: yes
+No risky promise phrases found in SKILL.md: yes
